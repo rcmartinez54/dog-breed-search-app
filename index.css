@@ -2,6 +2,11 @@
     box-sizing: border-box;
 }
 
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
 body {
     font-family: 'Amatic SC', cursive;
 }
@@ -51,7 +56,27 @@ label {
 
 .footer {
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
     background: blue;
     color: #fff;
+}
+
+h3 {
+    display: flex;
+    align-items: center;
+}
+
+.psuedo-btn {
+    padding: 20px;
+    border: 2px solid #fff;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.psuedo-btn:hover {
+    background: #fff;
+    color: blue;
+    border: 2px solid #000;
+    transition: all 1s;
 }
