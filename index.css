@@ -80,3 +80,37 @@ h3 {
     border: 2px solid #000;
     transition: all 1s;
 }
+
+@media screen and (max-width: 650px) {
+    h1 {
+        word-spacing: 10px;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    h1 {
+        word-spacing: 2px;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    h1 {
+        word-spacing: 0px;
+        font-size: 35px;
+    }
+    .results-img {
+        width: 300px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    h1 {
+        font-size: 28px;
+    }
+    .psuedo-btn {
+        padding: 1px;
+    }
+    .results-img {
+        width: 300px;
+    }
+}
